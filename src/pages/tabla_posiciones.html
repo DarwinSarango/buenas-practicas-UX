@@ -1,0 +1,274 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Lexend%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Tabla de Posiciones</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: Lexend, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f4] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#111418]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_6_319)">
+                    <path
+                      d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_6_319"><rect width="48" height="48" fill="white"></rect></clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <h2 class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]">SportBoard</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="dashboard.html">Inicio</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="tabla_posiciones.html">Posiciones</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="equipos.html">Equipos</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="estadistica_Individuales.html">Estadísticas</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="partidos.html">Partidos</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="tabla_comparativa.html">Comparativa</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#637488] flex border-none bg-[#f0f2f4] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#111418] focus:outline-0 focus:ring-0 border-none bg-[#f0f2f4] focus:border-none h-full placeholder:text-[#637488] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f2f4] text-[#111418] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#111418]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxR6MBzJLs86imeBYC4QFUs3Y9CpiS9LwW_1DgGoU9yudwWrfw_r0yI5JPqtt3xKSl1PkdECK7FliLgOfJ8xMu16sJkN_hJKH-ERq_GmC7qDbNJtqrhX_StbDtwQ_rqfkisEFQadIvwiuZnfq2olXY727vjNwK-X1ABJ0_fabg3KDAGjBSOG2E8h_079YVxb0-p8755cWb1w9UxFDZ6-F-klZv7q6mlFOQtVNk--4F6pXuZH3tYJC51TMWtIjewMYWnjSbPj7zFw1G");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#111418] tracking-light text-[32px] font-bold leading-tight">Tabla de Posiciones</p>
+                <p class="text-[#637488] text-sm font-normal leading-normal">Competición: Liga de Fútbol Profesional</p>
+              </div>
+            </div>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-lg border border-[#dce0e5] bg-white">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-white">
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">Pos</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">Equipo</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">PJ</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">PG</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">PE</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">PP</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">GF</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">GC</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">Dif</th>
+                      <th class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">Pts</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">1</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Club Atletico Madrid
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">26</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">8</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">4</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">67</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">25</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">42</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">86</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">2</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Real Madrid
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">25</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">9</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">4</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">67</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">28</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">39</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">84</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">3</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        FC Barcelona
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">24</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">7</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">7</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">85</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">47</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">79</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">4</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Sevilla FC
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">24</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">5</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">9</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">53</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">33</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">20</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">77</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">5</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Real Sociedad
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">17</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">11</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">10</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">59</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">21</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">62</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">6</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Real Betis
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">17</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">9</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">12</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">50</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">50</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">0</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">60</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">7</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Villarreal CF
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">15</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">13</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">10</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">60</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">44</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">16</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">58</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">8</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Celta de Vigo
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">14</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">11</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">13</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">55</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">57</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">-2</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">53</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">9</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Athletic Club
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">11</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">13</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">14</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">46</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">42</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">4</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">46</td>
+                    </tr>
+                    <tr class="border-t border-t-[#dce0e5]">
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">10</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Granada CF
+                      </td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">38</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">13</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">7</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">18</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">47</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">65</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">-18</td>
+                      <td class="table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200 h-[72px] px-4 py-2 w-[400px] text-[#637488] text-sm font-normal leading-normal">46</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-120{display: none;}}
+                @container(max-width:240px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-240{display: none;}}
+                @container(max-width:360px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-360{display: none;}}
+                @container(max-width:480px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-480{display: none;}}
+                @container(max-width:600px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-600{display: none;}}
+                @container(max-width:720px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-720{display: none;}}
+                @container(max-width:840px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-840{display: none;}}
+                @container(max-width:960px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-960{display: none;}}
+                @container(max-width:1080px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1080{display: none;}}
+                @container(max-width:1200px){.table-214eba3a-1364-438a-b33d-eed65ebbed30-column-1200{display: none;}}
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
