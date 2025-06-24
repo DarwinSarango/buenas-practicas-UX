@@ -1,4 +1,17 @@
 # 💡 SportBoard – Módulo de Estadísticas Deportivas (L4)
+Interfaces
+![image](https://github.com/user-attachments/assets/ef17b3b9-5309-459d-9c8e-70fef82595e9)
+
+![image](https://github.com/user-attachments/assets/1cd2f895-def0-4f0c-b266-ae5e1e8085ea)
+
+![image](https://github.com/user-attachments/assets/3a5dbe1e-cebc-4920-b078-87e5c6cc73c2)
+
+![image](https://github.com/user-attachments/assets/2b2226fa-a610-4185-89ff-a030263a372d)
+
+![image](https://github.com/user-attachments/assets/237723cb-ed83-45e1-834a-354c49d7f673)
+
+
+
 
 ## Objetivo
 Diseñar un conjunto de interfaces modernas, accesibles y centradas en el usuario para el módulo de estadísticas de SportBoard, basándose en el modelo de clases proporcionado. La aplicación debe permitir visualizar, gestionar y analizar datos relacionados con competiciones, equipos, atletas y estadísticas individuales/colectivas, según el diagrama UML.
