@@ -1,5 +1,7 @@
 # 💡 SportBoard – Módulo de Estadísticas Deportivas (L4)
-Interfaces
+
+## Interfaces Web
+
 ![image](https://github.com/user-attachments/assets/ef17b3b9-5309-459d-9c8e-70fef82595e9)
 
 ![image](https://github.com/user-attachments/assets/1cd2f895-def0-4f0c-b266-ae5e1e8085ea)
@@ -11,6 +13,20 @@ Interfaces
 ![image](https://github.com/user-attachments/assets/2b2226fa-a610-4185-89ff-a030263a372d)
 
 ![image](https://github.com/user-attachments/assets/237723cb-ed83-45e1-834a-354c49d7f673)
+
+## Interfaces Mobiel
+
+![image](https://github.com/user-attachments/assets/99b4d439-18cf-4038-9207-64bf70d73aeb)
+
+![image](https://github.com/user-attachments/assets/3b363942-231e-43aa-96fe-8f1ab25cbf88)
+
+![image](https://github.com/user-attachments/assets/129a9412-eb4e-46b3-b3df-a8280e435315)
+
+![image](https://github.com/user-attachments/assets/6fff6ded-1004-43c8-b426-13bca7bb314c)
+
+![image](https://github.com/user-attachments/assets/3c963f09-22b5-45f7-a4aa-bbda57c21eb7)
+
+![image](https://github.com/user-attachments/assets/64908332-103a-4dbd-870d-9c4a3233d76a)
 
 
 ## Objetivo
