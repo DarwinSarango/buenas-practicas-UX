@@ -18,18 +18,16 @@
 
 ![image](https://github.com/user-attachments/assets/f10326b6-9b10-4cce-ac34-494677622c0d)
 
+![image](https://github.com/user-attachments/assets/ef7a01ae-b4c9-4faa-8342-3eaa88f02bef)
 
-![image](https://github.com/user-attachments/assets/99b4d439-18cf-4038-9207-64bf70d73aeb)
+![image](https://github.com/user-attachments/assets/b2e3bc71-2dd4-4f20-86d6-462b596bcf16)
 
-![image](https://github.com/user-attachments/assets/3b363942-231e-43aa-96fe-8f1ab25cbf88)
+![image](https://github.com/user-attachments/assets/6006c897-dab5-44bb-aab2-f29f62844f77)
 
-![image](https://github.com/user-attachments/assets/129a9412-eb4e-46b3-b3df-a8280e435315)
+![image](https://github.com/user-attachments/assets/4f6de67a-6ed5-4b4b-b472-a88459e6cfc2)
 
-![image](https://github.com/user-attachments/assets/6fff6ded-1004-43c8-b426-13bca7bb314c)
+![image](https://github.com/user-attachments/assets/460cc015-d093-4f37-a538-b30b65c9d5ad)
 
-![image](https://github.com/user-attachments/assets/3c963f09-22b5-45f7-a4aa-bbda57c21eb7)
-
-![image](https://github.com/user-attachments/assets/64908332-103a-4dbd-870d-9c4a3233d76a)
 
 
 ## Objetivo
