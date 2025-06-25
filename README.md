@@ -16,6 +16,9 @@
 
 ## Interfaces Mobiel
 
+![image](https://github.com/user-attachments/assets/f10326b6-9b10-4cce-ac34-494677622c0d)
+
+
 ![image](https://github.com/user-attachments/assets/99b4d439-18cf-4038-9207-64bf70d73aeb)
 
 ![image](https://github.com/user-attachments/assets/3b363942-231e-43aa-96fe-8f1ab25cbf88)
